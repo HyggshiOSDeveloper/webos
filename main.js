@@ -17,3 +17,12 @@
 function goto(url){
 	window.open(url); 
 }
+function toggleDD(e, id) {
+  e.stopPropagation();
+  document.querySelectorAll('.dropdown-menu')
+    .forEach(d => { if (d.id !== id) d.classList.remove('open'); });
+  document.getElementById(id).classList.toggle('open');
+}
+document.addEventListener('click', () =>
+  document.querySelectorAll('.dropdown-menu').forEach(d => d.classList.remove('open'))
+);
