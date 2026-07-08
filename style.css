@@ -120,8 +120,8 @@ header {
 }
 
 .card button:hover {
-  background: #212121;
-  color: #ffffff;
+  background: #c0c0c0;
+  color: #111111;
 }
 
 .contribute-card {

@@ -8,7 +8,7 @@ Add your project to `data.json` and send a pull request:
 ```json
 {
   "name": "Your OS Name",
-  "image": "images/your-logo.png",
+  "image": "[image link or pr image in `/images`]",
   "url": "https://your-demo-url.com"
 }
 ```
